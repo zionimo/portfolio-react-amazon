@@ -1,0 +1,40 @@
+.product_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 150px;
+  max-height: 400px;
+}
+
+.product > img {
+  width: 100%;
+  max-height: 50%;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.product_name {
+  display: flex;
+  justify-content: center;
+}
+
+.product_rating {
+  display: flex;
+  justify-content: center;
+}
+
+.product_price {
+  display: flex;
+  justify-content: center;
+}

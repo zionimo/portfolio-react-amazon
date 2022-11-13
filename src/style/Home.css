@@ -1,0 +1,28 @@
+h1 {
+  color: white;
+}
+.home {
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: stretch;
+}
+
+.home_banner_box {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.home_banner {
+  width: 100%;
+}
+
+.home_slide_box img {
+  width: 100%;
+}
+
+.home_products {
+  width: 100%;
+  display: flex;
+}
